@@ -4224,7 +4224,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
 
                 Device (B0D4)
                 {
-                    Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                    Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                     {
                         If (PCIC (Arg0))
                         {
@@ -4415,7 +4415,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -4660,7 +4660,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -4905,7 +4905,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -5150,7 +5150,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -5395,7 +5395,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -5640,7 +5640,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -5885,7 +5885,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -6130,7 +6130,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -6375,7 +6375,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -6620,7 +6620,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -6865,7 +6865,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -7110,7 +7110,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -7355,7 +7355,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -7600,7 +7600,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -7845,7 +7845,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -8090,7 +8090,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -8335,7 +8335,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -8580,7 +8580,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -8815,7 +8815,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -9050,7 +9050,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -9285,7 +9285,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -9520,7 +9520,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -9765,7 +9765,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -10010,7 +10010,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Zero, 
                     Zero
                 })
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("e5c937d0-3553-4d7a-9117-ea4d19c3434d") /* Device Labeling Interface */))
                     {
@@ -12180,7 +12180,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
 
     Scope (_SB.PCI0.LPCB)
     {
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -12217,7 +12217,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
         Device (PPMC)
         {
             Name (_ADR, 0x001F0002)  // _ADR: Address
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -12234,7 +12234,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
         Device (SBUS)
         {
             Name (_ADR, 0x001F0004)  // _ADR: Address
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -12755,7 +12755,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
         Device (GLAN)
         {
             Name (_ADR, 0x001F0006)  // _ADR: Address
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -12783,10 +12783,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 PMES,   1
             }
 
-            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            {
-                Return (GPRW (0x6D, 0x04))
-            }
+            
 
             Method (_DSW, 3, NotSerialized)  // _DSW: Device Sleep Wake
             {
@@ -12806,6 +12803,8 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Notify (GLAN, 0x02)
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
+            
         }
     }
 
@@ -12837,9 +12836,9 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
 
             Name (XFLT, Zero)
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                ADBG ("_DSM")
+                ADBG ("XDSM")
                 ShiftLeft (XADH, 0x20, Local0)
                 Or (Local0, XADL, Local0)
                 And (Local0, 0xFFFFFFFFFFFFFFF0, Local0)
@@ -12926,10 +12925,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 }
             }
 
-            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            {
-                Return (GPRW (0x6D, 0x03))
-            }
+            
 
             Method (_DSW, 3, NotSerialized)  // _DSW: Device Sleep Wake
             {
@@ -13240,6 +13236,23 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     }
                 }
             }
+            
+            
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
+            Method (_DSM, 4, NotSerialized)
+            {
+                If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+                Return (Package()
+                {
+                    "subsystem-id", Buffer() { 0x70, 0x72, 0x00, 0x00 },
+                    "subsystem-vendor-id", Buffer() { 0x86, 0x80, 0x00, 0x00 },
+                    "AAPL,current-available", 2100,
+                    "AAPL,current-extra", 2200,
+                    "AAPL,current-extra-in-sleep", 1600,
+                    "AAPL,device-internal", 0x02,
+                    "AAPL,max-port-current-in-sleep", 2100,
+                })
+            }
         }
     }
 
@@ -13329,7 +13342,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (And (XDCB, 0xFFFFFFFFFFFFFF00))
             }
 
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -13529,10 +13542,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 }
             }
 
-            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            {
-                Return (GPRW (0x6D, 0x04))
-            }
+            
 
             Method (_DSW, 3, NotSerialized)  // _DSW: Device Sleep Wake
             {
@@ -13553,6 +13563,8 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Notify (XDCI, 0x02)
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
+            
         }
     }
 
@@ -13582,10 +13594,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Store (Arg0, PMEE)
             }
 
-            Method (_PRW, 0, NotSerialized)  // _PRW: Power Resources for Wake
-            {
-                Return (GPRW (0x6D, 0x04))
-            }
+            
 
             Method (GPEH, 0, NotSerialized)
             {
@@ -13653,9 +13662,9 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 }
             }
 
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
-                ADBG ("HDAS _DSM")
+                ADBG ("HDAS XDSM")
                 If (PCIC (Arg0))
                 {
                     Return (PCID (Arg0, Arg1, Arg2, Arg3))
@@ -13674,17 +13683,17 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                         }
                         Case (One)
                         {
-                            ADBG ("_DSM Fun 1 NHLT")
+                            ADBG ("XDSM Fun 1 NHLT")
                             Return (NBUF)
                         }
                         Case (0x02)
                         {
-                            ADBG ("_DSM Fun 2 FMSK")
+                            ADBG ("XDSM Fun 2 FMSK")
                             Return (ADFM)
                         }
                         Case (0x03)
                         {
-                            ADBG ("_DSM Fun 3 PPMS")
+                            ADBG ("XDSM Fun 3 PPMS")
                             If (CondRefOf (\_SB.PCI0.HDAS.PPMS))
                             {
                                 Return (PPMS (Arg3))
@@ -13694,7 +13703,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                         }
                         Default
                         {
-                            ADBG ("_DSM Fun NOK")
+                            ADBG ("XDSM Fun NOK")
                             Return (Buffer (One)
                             {
                                  0x00                                           
@@ -13704,18 +13713,20 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     }
                 }
 
-                ADBG ("_DSM UUID NOK")
+                ADBG ("XDSM UUID NOK")
                 Return (Buffer (One)
                 {
                      0x00                                           
                 })
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
+            
         }
 
         Device (SAT0)
         {
             Name (_ADR, 0x00170000)  // _ADR: Address
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -15256,7 +15267,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD0, 0x02))
             {
                 Name (_ADR, 0x00150000)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15314,7 +15325,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD1, 0x02))
             {
                 Name (_ADR, 0x00150001)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15372,7 +15383,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD2, 0x02))
             {
                 Name (_ADR, 0x00150002)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15430,7 +15441,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD3, 0x02))
             {
                 Name (_ADR, 0x00150003)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15488,7 +15499,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD4, 0x02))
             {
                 Name (_ADR, 0x00190002)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15546,7 +15557,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD5, 0x02))
             {
                 Name (_ADR, 0x00190001)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15603,7 +15614,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD6, 0x02))
             {
                 Name (_ADR, 0x001E0002)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15660,7 +15671,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD7, 0x02))
             {
                 Name (_ADR, 0x001E0003)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15715,7 +15726,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD8, 0x02))
             {
                 Name (_ADR, 0x001E0000)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15788,7 +15799,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMD9, 0x02))
             {
                 Name (_ADR, 0x001E0001)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15861,7 +15872,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             If (LEqual (SMDA, 0x02))
             {
                 Name (_ADR, 0x00190000)  // _ADR: Address
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -15892,6 +15903,8 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     LPD3 (SB1A)
                 }
             }
+            Method(_PRW) { Return(Package() { 0x6D, 0 }) }
+            
         }
     }
 
@@ -16041,7 +16054,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             Name (_HID, "XXXX0000")  // _HID: Hardware ID
             Name (_CID, "PNP0C50")  // _CID: Compatible ID
             Name (_S0W, 0x03)  // _S0W: S0 Device Wake State
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, HIDG))
                 {
@@ -16363,7 +16376,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             Name (_HID, "XXXX0000")  // _HID: Hardware ID
             Name (_CID, "PNP0C50")  // _CID: Compatible ID
             Name (_S0W, 0x04)  // _S0W: S0 Device Wake State
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, HIDG))
                 {
@@ -17396,7 +17409,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Store (PSTA, TEMP)
                 }
 
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -17490,7 +17503,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Store (PSTA, TEMP)
                 }
 
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (PCIC (Arg0))
                     {
@@ -17545,7 +17558,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
         Device (ISHD)
         {
             Name (_ADR, 0x00130000)  // _ADR: Address
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -17565,7 +17578,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
         Device (HECI)
         {
             Name (_ADR, 0x00160000)  // _ADR: Address
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -17653,7 +17666,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (Zero)
             }
 
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("1730e71d-e5dd-4a34-be57-4d76b6a2fe37")))
                 {
@@ -19897,7 +19910,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                     Return (Zero)
                 }
 
-                Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+                Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
                 {
                     If (LEqual (Arg0, ToUUID ("f5cf0ff7-5d60-4842-82c0-fa1a61d873f2")))
                     {
@@ -20289,7 +20302,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 }
             }
 
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -20695,7 +20708,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -21100,7 +21113,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -21505,7 +21518,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -21912,7 +21925,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 }
             }
 
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -22318,7 +22331,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -22723,7 +22736,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -23128,7 +23141,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -23535,7 +23548,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 }
             }
 
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (PCIC (Arg0))
                 {
@@ -23941,7 +23954,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -24346,7 +24359,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -24751,7 +24764,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -25156,7 +25169,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -25561,7 +25574,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -25966,7 +25979,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -26371,7 +26384,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -26776,7 +26789,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -27181,7 +27194,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -27586,7 +27599,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -27991,7 +28004,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             }
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (PCIC (Arg0))
             {
@@ -31110,7 +31123,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (Zero)
             }
 
-            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("c4eb40a0-6cd2-11e2-bcfd-0800200c9a66")))
                 {
@@ -32377,7 +32390,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("79234640-9e10-4fea-a5c1-b5aa8b19756f")))
                 {
@@ -32497,7 +32510,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("79234640-9e10-4fea-a5c1-b5aa8b19756f")))
                 {
@@ -32613,7 +32626,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("79234640-9e10-4fea-a5c1-b5aa8b19756f")))
                 {
@@ -32729,7 +32742,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("79234640-9e10-4fea-a5c1-b5aa8b19756f")))
                 {
@@ -32862,7 +32875,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PLDB)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("26257549-9271-4ca4-bb43-c4899d5a4881")))
                 {
@@ -33021,7 +33034,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PLDB)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("26257549-9271-4ca4-bb43-c4899d5a4881")))
                 {
@@ -33180,7 +33193,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PLDB)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("26257549-9271-4ca4-bb43-c4899d5a4881")))
                 {
@@ -33339,7 +33352,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PLDB)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("26257549-9271-4ca4-bb43-c4899d5a4881")))
                 {
@@ -33618,7 +33631,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("822ace8f-2814-4174-a56b-5f029fe079ee")))
                 {
@@ -34096,7 +34109,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("822ace8f-2814-4174-a56b-5f029fe079ee")))
                 {
@@ -34574,7 +34587,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("822ace8f-2814-4174-a56b-5f029fe079ee")))
                 {
@@ -35052,7 +35065,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("822ace8f-2814-4174-a56b-5f029fe079ee")))
                 {
@@ -35411,7 +35424,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("822ace8f-2814-4174-a56b-5f029fe079ee")))
                 {
@@ -35532,7 +35545,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("822ace8f-2814-4174-a56b-5f029fe079ee")))
                 {
@@ -35614,7 +35627,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
                 Return (PAR)
             }
 
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            Method (XDSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
                 If (LEqual (Arg0, ToUUID ("26257549-9271-4ca4-bb43-c4899d5a4881")))
                 {
@@ -36829,7 +36842,7 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
             SRSP,   32
         }
 
-        Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+        Method (XDSM, 4, Serialized)  // _DSM: Device-Specific Method
         {
             If (LEqual (Arg0, ToUUID ("3dddfaa6-361b-4eb4-a424-8d10089d1653") /* Physical Presence Interface */))
             {
