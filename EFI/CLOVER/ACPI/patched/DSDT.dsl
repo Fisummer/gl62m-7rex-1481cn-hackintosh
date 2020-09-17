@@ -10390,7 +10390,9 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
     })
     Method (_PTS, 1, NotSerialized)  // _PTS: Prepare To Sleep
     {
-        If (Arg0)
+        External(\_SB.PCI0.PEG0.PEGP._ON, MethodObj)
+If (CondRefOf(\_SB.PCI0.PEG0.PEGP._ON)) { \_SB.PCI0.PEG0.PEGP._ON() }
+If (Arg0)
         {
             \_SB.TPM.TPTS (Arg0)
             \_SB.PCI0.LPCB.SPTS (Arg0)
@@ -10404,7 +10406,9 @@ DefinitionBlock ("", "DSDT", 2, "MSI_NB", "MEGABOOK", 0x01072009)
         RWAK (Arg0)
         \_SB.PCI0.NWAK (Arg0)
         \_SB.PCI0.LPCB.SWAK (Arg0)
-        Return (WAKP)
+        External(\_SB.PCI0.PEG0.PEGP._OFF, MethodObj)
+If (CondRefOf(\_SB.PCI0.PEG0.PEGP._OFF)) { \_SB.PCI0.PEG0.PEGP._OFF() }
+Return (WAKP)
     }
 
     Scope (_PR)
