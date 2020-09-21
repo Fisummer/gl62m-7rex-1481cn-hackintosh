@@ -192,7 +192,7 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon lilucpu=9 alcid=11</string>
+		<string>dart=0 nv_disable=1 -cdfon lilucpu=9</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -341,22 +341,16 @@
 				<key>#2 framebuffer-con1-alldata</key>
 				<data>AQUKAAAIAACHAQAAAwYKAAAEAACHAQAA/wAAAAEAAAAgAAAA</data>
 			</dict>
-			<key>PciRoot(0)/Pci(0x1f,3)</key>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
-				<key>#no-controller-patch</key>
-				<integer>1</integer>
-				<key>#layout-id</key>
-				<integer>3</integer>
-				<key>#hda-gfx</key>
-				<string>onboard-1</string>
-				<key>#PinConfigurations</key>
-				<data></data>
+				<key>layout-id</key>
+				<data>YgAAAA==</data>
 			</dict>
 		</dict>
 		<key>Audio</key>
 		<dict>
 			<key>ResetHDA</key>
-			<false/>
+			<true/>
 			<key>Inject</key>
 			<string>No</string>
 		</dict>
