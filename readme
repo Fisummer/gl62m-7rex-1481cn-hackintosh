@@ -1,5 +1,10 @@
+important note
+1.the if modify the acpi aml files directly will not work and the system will not able to parse the file 
+so we need to edit the dsl file
+
 to do
-1.test if the brightness saved after reboot
-2.the keyboard with voodooi2c 
-3.the hdmi audio
+1.test if the brightness saved after reboot (confirmed ,brightness work) *
+2.the keyboard with voodooi2c (the keyboard with voodooi2c work)*
+3.the hdmi audio 
+4.refactoring the applealc cause the applealc currently not working reliable
 
