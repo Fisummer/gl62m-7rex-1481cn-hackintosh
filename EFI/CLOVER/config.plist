@@ -175,7 +175,7 @@
 				<key>FixIPIC</key>
 				<false/>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 			</dict>
@@ -344,7 +344,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>YgAAAA==</data>
+				<integer>98</integer>
 			</dict>
 		</dict>
 		<key>Audio</key>
