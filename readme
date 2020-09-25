@@ -8,3 +8,40 @@ to do
 3.the hdmi audio 
 4.refactoring the applealc cause the applealc currently not working reliable
 
+安装过程注意磁盘格式完全 否则可能出现问题
+usb3.0 用不了用2.0
+
+
+intel graphic card 
+The general concept of enabling Intel graphics cards:
+
+Correct the names of all related devices (IGPU for the video card itself, IMEI for the Intel Management Engine).
+If necessary, fake the device-id's of the video card and Intel Management Engine to compatible ones.
+Specify the correct framebuffer (AAPL,ig-platform-id or AAPL,snb-platform-id) describing available outputs and other properties of the video card.
+Add some other additional properties to devices related to Intel® HD Graphics аnd for digital audio.
+At this point, paragraphs 1 and 4 are automated by WhateverGreen and AppleALC. It works in OS X 10.8 and later, and greatly simplifies graphics enabling in macOS.	
+
+
+when install hackintosh without format i happen to could not complete the installation with the error the image currepted and not complete ,so better to format the disk if need a fresh new installation
+
+
+1. backlight fixed
+
+the apple backlight need the pnlf device before loading the applebacklight kext to work,
+with whatevergreen we don't need the kext from rehabman applebacklightfix.kext and ssdt-pnlf.aml acpi file to fix 
+just use use whatevergreen and  addpnlf from clover acpi/fix
+
+2.use whatevergreen follow all the instruction on the whatevergreen but keep the add properties from clover plist from rehabman if delete the add properties it will not boot up
+
+3.without some files in side the acip patched path (dsdt.aml ssdt-gprw.aml ssdt-pnlf.aml) it won't wake after sleep update: the dead sleep cause by not the nvidia graphics card ,if the n card not disabled after sleep it won't resume to normal mode
+
+4.finally fixed the instant wake problem (the usb 06 and 00 skylake and rename _dsm method)
+update( patch dsdt with "add Rename _DSM methods to XDSM" first and then patch "usb_prw_0x0d_xhc.txt" and "usb_prw_0x6d_xhc.txt" the skylake one ) will totally fix the instant wake issue
+
+
+5.android studio avd not able to boot to fix reboot to bios for vt setting enable it
+
+
+6. weir thing that when using the usb drive to boot the audio will not work almost all the time ,but did work on the ssd drive
+
+7.sudo defaults write /Library/Preferences/com.apple.airport.bt.plist bluetoothCoexMgmt Hybrid   this can improve the 2.4ghz wifi and bluetooth interfere
